@@ -3,8 +3,17 @@
 @@include('template/head.html')
 
 <body>
-    @@include('template/header.html')
-    @@include('template/footer.html')
+    <div class="wrapper">
+        <!-- header -->
+        @@include('template/header.html')
+
+        <!-- about -->
+        @@include('html/about.html')
+        @@include('html/advantages.html')
+
+        <!-- footer -->
+        @@include('template/footer.html')
+    </div>
     <script src="js/main.js"></script>
 </body>
 
