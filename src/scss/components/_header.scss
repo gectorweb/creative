@@ -19,11 +19,12 @@
     align-items: center;
   }
   &__item:not(:last-child){
-    margin-right: 40px;
+    margin-right: 33px;
   }
   &__link{
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 0.33px;
     color: #373636;
     transition: all 0.3s ease;

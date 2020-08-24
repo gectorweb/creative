@@ -1,0 +1,24 @@
+.decor-rombus{
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+  position: relative;
+  &::after,
+  &::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 45px;
+    background-color: #ffffff;
+    transform: rotate(-45deg);
+  }
+  &::after{
+    top: -45px;
+    left: -24px;
+  }
+  &::before{
+    bottom: -45px;
+    left: 42px;
+  }
+}
